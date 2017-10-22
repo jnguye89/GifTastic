@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GifTastic</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>GifTastic</h1> 
+			<p>Add animal buttons below. Then click on the buttons to find GIFs of your animal!</p> 
+			<form>
+				Add an animal:<br><br>
+				<input type="text" name="animal" id="animal-input"><br><br>
+				<input type="submit" value="submit" id="add-animal"><br><br>
+			</form>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-body" id="button-display">
+						Add an animal above to start!
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-body" id="gif-display">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
